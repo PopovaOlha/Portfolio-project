@@ -1,0 +1,137 @@
+body {
+    font-family: "Oswald", sans-serif;
+    background-size: 100%;
+    max-width: 100%;
+  }
+  :root {
+    --primary-color: blueviolet;
+    --second-primary-color: white;
+    --border-size: 1px solid;
+  }
+  h2,
+  h3,
+  h4 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: lighter;
+  }
+  h1,.title-text {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  .title-text {
+    margin-top: 50px;
+  }
+  h2 {
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+  }
+  h3 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .front-end {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    margin-top: 30px;
+    margin-bottom: 7px;
+    font-size: 10px;
+    font-weight: solid;
+    text-align: center;
+    opacity: 0.9;
+  }
+  .second-p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .conteiner {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+  }
+  .first-flexbox {
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-evenly;
+  }
+  .btn {
+    background-color: var(--primary-color);
+    color: var(--second-primary-color);
+    margin: 0 10px;
+  }
+  .contact-me {
+    margin-right: 30px;
+    border: var(--border-size) var(--second-primary-color);
+    border-radius: 5px 5px;
+    padding: 10px 10px;
+    box-shadow: 5px 10px 10px grey;
+    background: var(--primary-color);
+  }
+  .contact-me:hover {
+    background: var(--second-primary-color);
+    border: var(--border-size) var(--primary-color);
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+  }
+  .about-me {
+    border: var(--border-size) var(--primary-color);
+    padding: 10px 10px;
+    border-radius: 5px 5px;
+    box-shadow: 5px 10px 10px grey;
+    background: var(--second-primary-color);
+  }
+  .about-me:hover {
+    background: var(--primary-color);
+    border: var(--border-size) var(--second-primary-color);
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+  }
+  .contact {
+    color: var(--second-primary-color);
+    text-decoration: none;
+  }
+  .contact:hover {
+    color: var(--primary-color);
+  }
+  .about {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  .about:hover {
+    color: var(--second-primary-color);
+  }
+  .link {
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+  }
+  
+  .second-flexbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .first-text {
+    border: 1px solid grey;
+    border-radius: 4px 4px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px 40px;
+    background: #bbe4e9;
+  }
+  
+  .mail {
+    display: block;
+    text-align: center;
+  }
